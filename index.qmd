@@ -8,7 +8,7 @@ listing:
   type: grid
   image-height: "120px"
   categories: true
-  fields: [image, title, date, description, categories]
+  fields: [title, date, description, categories]
 ---
 
 Welcome! Latest posts are below.
