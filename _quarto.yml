@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs        # add this so your site keeps publishing to /docs
+execute:
+  freeze: true
 
 website:
   title: "Pat Temp Projects Blog"
