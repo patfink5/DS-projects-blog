@@ -1,9 +1,9 @@
 ---
 title: "First Post: Simple Chart"
 date: 2025-11-18
-execute:
-  eval: true
-  freeze: auto
+categories: [python, plotting]
+description: "Tiny example using pandas + matplotlib."
+image: images/first-post-card.png   # optional, shows on grid cards
 ---
 
 Here’s a simple chart rendered statically.

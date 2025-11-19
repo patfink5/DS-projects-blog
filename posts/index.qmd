@@ -1,9 +1,12 @@
 ---
-title: "Posts"
+title: "Pat Temp Projects Blog"
 listing:
-  contents: .
+  contents: posts          # ← pull posts from the posts/ folder
   sort: "date desc"
-  type: default
+  type: grid               # options: default | table | grid | tree
+  image-height: "140px"        # (optional) nicer cards if posts have images
+  categories: true         # (optional) show categories from YAML
+  fields: [title, date, categories, description]  # which fields to show
 ---
 
-Browse all posts.
+Welcome! Latest posts are below.
