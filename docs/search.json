@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Pat Temp Projects Blog",
+    "objectID": "posts/first-post.html",
+    "href": "posts/first-post.html",
+    "title": "First Post: Simple Chart",
     "section": "",
-    "text": "Welcome! Latest posts are below.\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
-    "section": "",
-    "text": "This is my lightweight data science blog. Posts are static: code runs locally, outputs (plots/tables) are embedded."
+    "text": "Here’s a simple chart rendered statically.\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\ndf = pd.DataFrame({\"x\": range(10), \"y\": [v*v for v in range(10)]})\ndf.head()\n\n\n\n\n\n\n\n\nx\ny\n\n\n\n\n0\n0\n0\n\n\n1\n1\n1\n\n\n2\n2\n4\n\n\n3\n3\n9\n\n\n4\n4\n16\n\n\n\n\n\n\n\n\nplt.plot(df[\"x\"], df[\"y\"])\nplt.title(\"y = x^2\")\nplt.xlabel(\"x\"); plt.ylabel(\"y\")\nplt.show()"
   },
   {
     "objectID": "about.html",
@@ -21,10 +14,10 @@
     "text": "About this site"
   },
   {
-    "objectID": "posts/first-post.html",
-    "href": "posts/first-post.html",
-    "title": "First Post: Simple Chart",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pat Temp Projects Blog",
     "section": "",
-    "text": "Here’s a simple chart rendered statically.\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\ndf = pd.DataFrame({\"x\": range(10), \"y\": [v*v for v in range(10)]})\ndf.head()\n\n\n\n\n\n\n\n\nx\ny\n\n\n\n\n0\n0\n0\n\n\n1\n1\n1\n\n\n2\n2\n4\n\n\n3\n3\n9\n\n\n4\n4\n16\n\n\n\n\n\n\n\n\nplt.plot(df[\"x\"], df[\"y\"])\nplt.title(\"y = x^2\")\nplt.xlabel(\"x\"); plt.ylabel(\"y\")\nplt.show()"
+    "text": "Welcome! Latest posts are below.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst Post: Simple Chart\n\n\n\npython\n\nplotting\n\n\n\nTiny example using pandas + matplotlib.\n\n\n\nNov 18, 2025\n\n\n\n\n\n\nNo matching items"
   }
 ]

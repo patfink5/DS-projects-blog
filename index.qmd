@@ -1,5 +1,14 @@
 ---
-title: "Welcome"
+title: "Pat Temp Projects Blog"
+listing:
+  contents:
+    - posts/*.qmd
+    - posts/*.ipynb
+  sort: "date desc"
+  type: grid
+  image-height: "120px"
+  categories: true
+  fields: [image, title, date, description, categories]
 ---
 
-This is my lightweight data science blog. Posts are static: code runs locally, outputs (plots/tables) are embedded.
+Welcome! Latest posts are below.
