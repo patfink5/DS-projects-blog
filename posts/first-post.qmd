@@ -1,0 +1,24 @@
+---
+title: "First Post: Simple Chart"
+date: 2025-11-18
+execute:
+  eval: true
+  freeze: auto
+---
+
+Here’s a simple chart rendered statically.
+
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.DataFrame({"x": range(10), "y": [v*v for v in range(10)]})
+df.head()
+```
+
+```{python}
+plt.plot(df["x"], df["y"])
+plt.title("y = x^2")
+plt.xlabel("x"); plt.ylabel("y")
+plt.show()
+```
