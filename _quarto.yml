@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs        # add this so your site keeps publishing to /docs
 
 website:
   title: "Pat Temp Projects Blog"
@@ -7,15 +8,16 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - text: About
+        href: about.qmd
+    right:
+      - text: Posts
+        href: posts/index.qmd
+  page-footer:
+    center: "© 2025 Pat Fink — Built with [Quarto](https://quarto.org)"
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
+    theme: flatly           # only list one theme here; “brand” isn’t a built-in one
+    css: styles.css        # custom CSS (optional)
     toc: true
-
-
-
